@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExpenseTracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="details">
+        <h1 id="title">Expense Tracker</h1>
+        <span id="new-item">Add A New Item:</span>
+      </div>
+      <div class="add-item">
+        <div class="name">
+          <span>Name:</span>
+          <input
+            type="text"
+            id="input-name"
+            placeholder="Where was the expense made?"
+          />
+        </div>
+        <span>Date:</span>
+        <input type="date" id="input-date" />
+        <span>Amount:</span>
+        <input type="number" id="input-amount" />
+      </div>
+      <div class="btn-container">
+        <button id="add-btn">Add Expense</button>
+      </div>
+      <div class="tabel">
+        <table id="tabeltb">
+          <tr>
+            <th id="th-name">Name</th>
+            <th id="th-date">Date</th>
+            <th id="th-amount">Amount</th>
+            <th id="th-btn"></th>
+          </tr>
+          <!-- <tr class="item">
+            <td>Jill</td>
+            <td>01.12.2003</td>
+            <td>$50</td>
+            <td>
+              <button class="delBtn">X</button>
+            </td>
+          </tr> -->
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

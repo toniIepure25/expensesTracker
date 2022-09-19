@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 800px;
+  height: 800px;
+}
+
+#add-btn {
+  background-color: rgb(71, 219, 71);
+  font-size: 18px;
+  width: 150px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: 0;
+  color: white;
+  font-weight: 600;
+}
+
+.add-item {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.add-item > span {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.name {
+  padding-bottom: 10px;
+}
+
+#input-name {
+  width: 700px;
+}
+
+#input-date {
+  width: 310px;
+}
+
+#input-amount {
+  width: 310px;
+}
+
+.details {
+  text-align: center;
+}
+
+#title {
+  font-size: 44px;
+}
+
+#new-item {
+  color: rgb(71, 219, 71);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+input {
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid rgba(206, 202, 202, 0.815);
+  padding-left: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  /* padding-top: 20px; */
+  margin-top: 10px;
+}
+
+th,
+td {
+  width: 800px;
+  text-align: left;
+  box-shadow: 2px 2px 2px rgba(206, 202, 202, 0.452);
+  padding: 5px;
+}
+
+td {
+  background-color: rgba(206, 202, 202, 0.315);
+}
+
+.delbtn {
+  font-size: 20px;
+  padding-left: 5px;
+}
